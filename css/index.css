@@ -1,4 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: blue;
+}
+
+.head{
+	background-color: blue;
+	border:4px solid yellow;
+	color: red;
 }
