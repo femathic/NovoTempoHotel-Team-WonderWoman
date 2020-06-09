@@ -1,9 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: blue;
   font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
 }
 
+.head{
+	background-color: blue;
+	border:4px solid yellow;
+	color: red;
+}
 
 
 /* Nav styling */
