@@ -77,6 +77,20 @@ header input, header select {
   border-bottom: 2px solid #C59A4C !important;
   font-size: 12px !important;
 }
+input:focus, select:focus {
+  outline: none !important;
+  box-shadow: 12px 22px 35px 0px rgba(0,0,0,0.68) !important;
+}
+select option {
+  background: #C59A4C !important;
+  color: #fff;
+}
+select:focus > option:hover {
+  background: #231725 !important;
+}
+select:focus > option:checked {
+  background: #231725 !important;
+}
 header .availability {
   border: 2px solid #C59A4C;
 }
