@@ -1,5 +1,84 @@
 
+/* Nav styling */
+nav, nav a {
+  color: #C59A4C;
+  background-color: #231725;
+  font-weight: 500;
+  font-size: 11px;
+}
+nav a:hover{
+  color: white;
+}
+.active .nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 12px;
+}
+nav form {
+  border: 2px solid #C59A4C;
+}
+nav form button {
+  background-color: #C59A4C;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid #C59A4C;
+}
+.navbar-toggler {
+  border: 2px solid #C59A4C;
+}
+.navbar-brand img {
+  top: 0;
+}
+
+
+
+/* Footer styling */
+footer, footer a {
+  color: #C59A4C;
+  background-color: #231725;
+  font-weight: 500;
+  font-size: 10px;
+}
+footer b {
+  font-size: 12px;
+}
+footer i {
+  font-size: 16px;
+}
+footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+footer h4 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+footer img {
+  width: 100px;
+}
+footer h5 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.footer-copyright {
+  border-top: 2px solid black;
+}
+.footer-group {
+  min-width: 300px;
+}
+
+
+
+
+
+
+
+
+
 *{
+  
  box-sizing: border-box;
 }
 

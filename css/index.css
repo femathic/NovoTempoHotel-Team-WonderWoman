@@ -1,16 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: blue;
   font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
 }
-
-.head{
-	background-color: blue;
-	border:4px solid yellow;
-	color: red;
-}
-
 
 /* Nav styling */
 nav, nav a {
@@ -42,6 +34,139 @@ nav form button {
 .navbar-brand img {
   top: 0;
 }
+
+
+
+/* Header Styling */
+header {
+  background-color: #231725; 
+  color: #fff;
+  border-bottom: 2px solid #C59A4C;
+  overflow: hidden;
+}
+header .hero1 {
+  background-image: url(../assets/images/hero.png); 
+  height: 600px;
+}
+header .hero1 h4 {
+  background-color: #C59A4C;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+header form h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+header form label {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+header input, header select {
+  background-color: transparent !important; 
+  color: #fff !important;
+  border: none !important;
+  border-bottom: 2px solid #C59A4C !important;
+  font-size: 12px !important;
+}
+header .availability {
+  border: 2px solid #C59A4C;
+}
+header form button {
+  background-color: #C59A4C;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #C59A4C;
+}
+header .hero2 h2 {
+  color: #C59A4C;
+  font-size: 42px;
+  font-weight: 800;
+}
+header .hero2 h6 {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+}
+header .hero2 .hero2-text {
+  max-width: 450px;
+}
+
+
+
+/* Card section styling */
+.cards {
+  background-color: #C59A4C;
+  overflow: hidden;
+}
+.cards h2 {
+  top: -20px;
+  left: 0;
+  background-color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  border: 4px solid #231725;
+}
+.cards h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.cards p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.cards a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+/* Ending 1 styling */
+.ending1 {
+  overflow-x: hidden;
+  background-color:#231725;
+}
+.ending1 .liner {
+  border: 2px solid #C59A4C;
+  min-height: 95%;
+}
+.ending1 h3 {
+  background-color:#C59A4CAA;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+
+
+
+
+/* Ending 1 styling */
+.ending2 {
+  background-color: #F2EAE9;
+  color:#C59A4C !important;
+}
+.ending2 .liner {
+  border: 2px solid #C59A4C;
+}
+.ending2 h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.ending2 p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.ending2 a {
+  color:#C59A4C !important;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
 
 
 
