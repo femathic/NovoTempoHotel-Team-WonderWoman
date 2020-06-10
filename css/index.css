@@ -51,7 +51,7 @@ header .hero1 {
 }
 @media only screen and (max-width: 600px) {
   header .hero1 {
-    height: 350px;
+    height: 320px;
   }
 }
 header .hero1 h4 {
@@ -124,7 +124,7 @@ header .hero2 .hero2-text {
 }
 @media only screen and (max-width: 600px) {
  .cards h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 }
 .cards h5 {
