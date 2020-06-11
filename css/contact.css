@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #231725;
+}
+
+/* Nav styling */
+nav, nav a {
+  color: #C59A4C;
+  background-color: #231725;
+  font-weight: 500;
+  font-size: 11px;
+}
+nav a:hover{
+  color: white;
+}
+.active .nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 12px;
+}
+nav form {
+  border: 2px solid #C59A4C;
+}
+nav form button {
+  background-color: #C59A4C;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid #C59A4C;
+}
+.navbar-toggler {
+  border: 2px solid #C59A4C;
+}
+.navbar-brand img {
+  top: 0;
+}
+
+
+
+/* Header Styling */
+header {
+  background-color: #231725; 
+}
+header .hero1 {
+  background-image: url(../assets/images/contact.jpg); 
+  background-position: center;
+  height: 600px;
+}
+@media only screen and (max-width: 600px) {
+  header .hero1 {
+    height: 320px;
+  }
+}
+header .contact {
+  margin-top: 400px;
+  top: 0;
+}
+@media only screen and (max-width: 900px) {
+  header .contact {
+    margin-top: 160px;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .contact {
+    margin-top: 100px;
+    top: 0;
+  }
+}
+header h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+header p {
+  font-size: 18px;
+  font-weight: 500;
+}
+header a {
+  color: #231725; 
+  font-size: 18px;
+  font-weight: 600;
+}
+header .contact img {
+  max-width: 300px
+}
+header .news-letter {
+  background-color: #C4C4C4;
+}
+header .news-letter h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+header form .subscribe {
+  border: 2px solid #C59A4C;
+}
+header form button {
+  background-color: #C59A4C;
+  font-size: 17px;
+  font-weight: 700;
+  border: 1px solid #C59A4C;
+}
+@media only screen and (max-width: 600px) {
+  header form button {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+/* contact styling */
+.contact-section1 {
+  margin-top: 500px;
+  top: 0;
+}
+@media only screen and (max-width: 1000px) {
+  .contact-section1 {
+    margin-top: 760px;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .contact-section1 {
+    margin-top: 460px;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contact-section1 {
+    margin-top: 660px;
+    top: 0;
+  }
+}
+.contact-section1 div{
+  background-color: #C59A4C;
+  color: #231725; 
+}
+.contact-section1 h5 {
+  color: #231725; 
+  font-size: 22px;
+  font-weight: 700;
+}
+.contact-section1 p {
+  color: #231725; 
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact-section1 label {
+  color: #231725; 
+  font-size: 15px;
+  font-weight: 600;
+}
+.contact-section1 button {
+  color: #ffff;
+  background-color: #231725;
+  font-size: 17px;
+  font-weight: 700;
+  border: 1px solid #231725;
+}
+
+
+
+/* Footer styling */
+footer, footer a {
+  color: #C59A4C;
+  background-color: #231725;
+  font-weight: 500;
+  font-size: 10px;
+}
+footer b {
+  font-size: 12px;
+}
+footer i {
+  font-size: 16px;
+}
+footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+footer h4 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+footer img {
+  width: 100px;
+}
+footer h5 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.footer-copyright {
+  border-top: 2px solid black;
+}
+.footer-group {
+  min-width: 300px;
+}
