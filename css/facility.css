@@ -3,8 +3,8 @@ body {
   padding: 0;
   font-family: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
   background: #F2EAE9;
+  overflow-x: hidden;
 }
-
 /* Nav styling */
 nav, nav a {
   color: #C59A4C;

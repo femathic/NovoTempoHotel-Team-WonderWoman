@@ -79,6 +79,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 /* header */
@@ -109,7 +110,7 @@ body {
 }
 
 .header-link a {
-  font-family: Lato;
+  /* font-family: Lato; */
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -130,7 +131,7 @@ body {
 }
 
 div.header-link ul li:nth-child(2) > a {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -148,7 +149,7 @@ div.header-link ul li:nth-child(2) > a {
 .header-link li button a {
   background: #c59a4c;
   border: 2px solid transparent;
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -180,8 +181,14 @@ section.image {
   margin: -100px auto 25px 0px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .text {
+    position: static;
+  }
+}
+
 .text h1 {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -224,7 +231,7 @@ section.style-wrapper {
 }
 
 .style-text h1 {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -235,7 +242,7 @@ section.style-wrapper {
 }
 
 .style-text p {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -245,7 +252,7 @@ section.style-wrapper {
 }
 
 .style-info button {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -259,7 +266,7 @@ section.style-wrapper {
 }
 
 .style-info .rate {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -340,7 +347,7 @@ section.guest-wrapper {
 }
 
 .guest-text h1 {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -351,7 +358,7 @@ section.guest-wrapper {
 }
 
 .guest-text p {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -361,7 +368,7 @@ section.guest-wrapper {
 }
 
 .guest-info button {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -375,7 +382,7 @@ section.guest-wrapper {
 }
 
 .guest-info .rate {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -422,7 +429,7 @@ section.gold-wrapper {
 }
 
 .gold-text h1 {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -433,7 +440,7 @@ section.gold-wrapper {
 }
 
 .gold-text p {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -443,7 +450,7 @@ section.gold-wrapper {
 }
 
 .gold-info button {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -457,7 +464,7 @@ section.gold-wrapper {
 }
 
 .gold-info .rate {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -504,7 +511,7 @@ section.prem-wrapper {
 }
 
 .prem-text h1 {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -515,7 +522,7 @@ section.prem-wrapper {
 }
 
 .prem-text p {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -525,7 +532,7 @@ section.prem-wrapper {
 }
 
 .prem-info button {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -539,7 +546,7 @@ section.prem-wrapper {
 }
 
 .prem-info .rate {
-  font-family: Noto Serif;
+  /* font-family: Noto Serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -570,7 +577,7 @@ footer {
 }
 
 .item-wrap h2 {
-  font-family: Lato;
+  /* font-family: Lato; */
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -592,7 +599,7 @@ footer {
 }
 
 .item-wrap a {
-  font-family: Lato;
+  /* font-family: Lato; */
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
@@ -603,7 +610,7 @@ footer {
 }
 
 .item-wrap address {
-  font-family: Lato;
+  /* font-family: Lato; */
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
