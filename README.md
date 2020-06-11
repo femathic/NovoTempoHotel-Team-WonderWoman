@@ -1,4 +1,6 @@
-The following have been added to the project:
-Bootstrap, JavaScript and jQuery, Fontawesome and Montserrat font
+# NoVo Tempo Hotel
 
-Enjoy!
+The following project was built with
+Bootstrap, JavaScript and jQuery and Fontawesome.
+
+It was built By the Group 4 Frontend members of **Team WonderWoman**
