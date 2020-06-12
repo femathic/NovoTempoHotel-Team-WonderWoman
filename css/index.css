@@ -226,6 +226,203 @@ header .hero2 .hero2-text {
 
 
 
+.header{
+background: #231725;
+display: flex;
+align-items: center;
+margin-bottom: 0;
+}
+
+.header .logo{
+width: 42%;
+box-sizing: border-box;
+padding-left: 100px;
+}
+.header .logo img{
+position: relative;
+margin-bottom: -100px;
+width: 135px;
+height: 135px;
+z-index: 222;
+}
+
+.header .header-link{
+width: 58%;
+margin-right:15px;
+}
+
+.header-link a{
+font-family: Lato;
+text-decoration: none;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #C59A4C;
+}
+
+.header-link ul{
+display:flex;
+list-style: none;
+align-items: baseline;
+}
+
+.header-link li{
+margin-left: 10px;
+}
+
+div.header-link  ul li:nth-child(2) > a{
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #C59A4C;
+}
+
+.header-link li button{
+background: transparent;
+border: 1px solid #C59A4C;
+padding: 5px;
+}
+
+.header-link li button a{
+background: #C59A4C;
+border: 2px solid transparent;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #F2EAE9;
+}
+
+/* SECTION IMAGE */
+
+section.image{
+width: 100%;
+height: 550px;
+overflow: hidden;
+z-index: -1;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+/* IMAGE TEXT */
+
+.text{
+position: absolute;
+width: 40%;
+height: 50px;
+left: 800px;
+bottom: 150px;
+background: #C59A4C;
+display: flex;
+padding-left: 10px;
+align-items: center;
+justify-content: left;
+/*
+margin: -100px auto 25px 0px;*/
+margin: -100px;
+width: 47%;
+padding-left: 10px;
+}
+
+.text h1{
+font-family: lato;
+font-style: larger;
+font-weight: normal;
+font-size: 15px;
+line-height: 65px;
+color: #F2EAE9;
+}
+.reservation {
+/* position: absolute; */
+border-top: 0;
+margin-top: 0;
+background: #231725;
+display: flex;
+color: white;
+
+padding-left: 250px;
+padding-top: 30px;
+justify: center;
+padding-bottom: 30px;
+border-bottom: 2px solid #C59A4C;
+}
+.block {
+display: inline-block;
+}
+
+.form-control {
+    background: transparent;
+    margin-bottom: 0px;
+
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 3;
+}
+reservation.left {
+
+}
+.right-reserve {
+text-transform: uppercase;
+display: flex;
+padding-top: 50px;
+}
+
+.right-availability {
+padding-left: 200px;
+background: #231725;
+padding-top: 16px;
+
+}
+
+.button {
+background: #C59A4C;
+color: white;
+margin: 1px solid #C59A4C;
+
+}
+
+/* Hr lines */
+
+.novo-tempo {
+background: #231725;
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+color: #C59A4C;
+padding-left: 200px;
+padding-top: 50px;
+padding-right: 250px;
+padding-bottom: 50px;
+}
+
+.left-tempo{
+width: 300px;
+font-family: serif;
+}
+.right-tempo{
+width: 400px;
+font-size: 15px;
+}
+
+.right-services ul {
+list-style: none;
+font-size: 12px;
+text-decoration: none;
+}
+
+
+
+
 /* Footer styling */
 footer, footer a {
   color: #C59A4C;
